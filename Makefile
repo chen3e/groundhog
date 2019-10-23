@@ -4,4 +4,4 @@ build_r:
 
 build_py:
 	cp LICENSE clients/py-client
-	cd py-pkg && python3 setup.py sdist
+	cd clients/py-client && python3 setup.py sdist
